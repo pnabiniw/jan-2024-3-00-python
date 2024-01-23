@@ -8,4 +8,5 @@
     => Jumps to the <branch_name> provided
 
 4. git checkout -b <branch_name>
+    => creates a new branch and jumps to that branch immediately
 5. git merge <branch_name>
