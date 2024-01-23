@@ -8,3 +8,4 @@
     => Jumps to the <branch_name> provided
 
 4. git checkout -b <branch_name>
+5. git merge <branch_name>

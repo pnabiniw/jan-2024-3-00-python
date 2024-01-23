@@ -24,3 +24,9 @@ Set username and email
 
 3. git commit -m "<commit-message>"
     => Commits all the changes
+
+4. git remote add origin <ssh-link>
+5. git remote -v
+    => List all the remote names
+
+6. git push -u origin <branch_name>
