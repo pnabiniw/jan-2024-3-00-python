@@ -10,3 +10,18 @@
 4. git checkout -b <branch_name>
     => creates a new branch and jumps to that branch immediately
 5. git merge <branch_name>
+
+
+
+# Steps to create a merge conflict
+1. Make changes in branch1 in a particular file
+=> Add commit in branch1
+2. Checkout to main
+3. Merge the branch1
+4. Make changes in the same line of the file in main branch
+5. Add and commit in main branch
+6. checkout to branch1
+7. Make changes in the same line of the file
+8. Add and commit in branch1
+9. Merge main in branch1
+
