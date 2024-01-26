@@ -8,6 +8,8 @@ b = dict()  # empty dictionary
 
 student = {"name": "Jon", "age": 30, "email": "jon@email.com", "addresses": ["KTM", "PKR"]}
 print(student)
+student = dict(name="Jon", age=30, email="jon@email.com", addresses=["KTM", 'PKR'])
+print(student)
 
 # Dictionary values can be of any datatype
 # But, dictionary keys must be immutable
