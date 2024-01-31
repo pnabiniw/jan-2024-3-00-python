@@ -5,3 +5,14 @@ Use 45 hours and a rate of 10.50 per hour to test the program (the pay should be
 You should use input to read a string and float() to convert the string to a number.
 
 """
+
+rate = float(input("Enter rate per hour "))
+worked_hrs = float(input("Enter total work hours "))
+
+if worked_hrs <= 40:
+    total_pay = rate * worked_hrs
+else:
+    normal_pay = 40 * rate
+    ot_pay = (worked_hrs - 40) * 1.5 * rate
+    total_pay = normal_pay + ot_pay
+print("Total pay is ", total_pay)
