@@ -1,0 +1,20 @@
+# Commands for virtual environment
+
+1. python -m venv <environment_name>
+    => Creates a new virtual environment
+
+2. venv\Scripts\activate
+    => This activates the virtual environment
+    => This activation command is valid only in the windows devices
+
+    source venv/bin/activate => activates for linux and mac devices
+
+3. pip install <package_name> => installs packages
+
+4. pip freeze => lists all the packages with their version
+
+5. deactivate => It deactivates the environment
+
+6. pip freeze > requirements.txt
+
+7. pip install -r requirements.txt
