@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jon",
+    "address": "KTM",
+    "marks": 100
+  },
+  {
+    "name": "Jane",
+    "address": "KTM",
+    "marks": 100
+  },
+  {
+    "name": "Hary",
+    "address": "KTM",
+    "marks": 100
+  },
+  {
+    "name": "Alex",
+    "address": "KTM",
+    "marks": 100
+  }
+]
