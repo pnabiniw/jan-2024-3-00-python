@@ -15,9 +15,11 @@ def crud_student():
         cont = create_student()
         crud_student() if cont else exit_message()
     elif selection == "r":
-        read_student()
+        cont = read_student()
+        crud_student() if cont else exit_message()
     elif selection == "u":
-        update_student()
+        cont = update_student()
+        crud_student() if cont else exit_message()
     elif selection == "d":
         delete_student()
     else:
