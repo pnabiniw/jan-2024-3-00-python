@@ -21,7 +21,8 @@ def crud_student():
         cont = update_student()
         crud_student() if cont else exit_message()
     elif selection == "d":
-        delete_student()
+        cont = delete_student()
+        crud_student() if cont else exit_message()
     else:
         exit_message()
 
