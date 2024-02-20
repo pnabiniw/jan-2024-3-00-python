@@ -14,5 +14,6 @@ class Dog(Animal):
     def sound(self):
         return "It Barks !!"
 
+
 d = Dog()
 print(d.sound())
